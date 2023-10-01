@@ -1,13 +1,14 @@
 package swingcrud;
 
 /**
- *
- * @author JAMES
+ * @author LINA GABRIELA VILLALBA
+ * MAYRA ALEJANDRA SERRANO
  */
 public class Aspirante {
-    String nombre_completo,profesion,telefono;
+    String nombre_completo, profesion, telefono;
     Integer cedula, edad, experiencia;
-    public Aspirante(Integer cedula, String nombre_completo, Integer edad, Integer experiencia, String profesion, String telefono){
+
+    public Aspirante(Integer cedula, String nombre_completo, Integer edad, Integer experiencia, String profesion, String telefono) {
         this.cedula = cedula;
         this.nombre_completo = nombre_completo;
         this.edad = edad;
@@ -15,25 +16,30 @@ public class Aspirante {
         this.profesion = profesion;
         this.telefono = telefono;
     }
-    
+
     //getters
-    public Integer getCedula(){
+    public Integer getCedula() {
         return this.cedula;
     }
-    public String getNombreCompleto(){
+
+    public String getNombreCompleto() {
         return this.nombre_completo;
     }
-    public Integer getEdad(){
+
+    public Integer getEdad() {
         return this.edad;
     }
-    public Integer getExperiencia(){
+
+    public Integer getExperiencia() {
         return this.experiencia;
     }
-    public String getProfesion(){
+
+    public String getProfesion() {
         return this.profesion;
     }
-    public String getTelefono(){
+
+    public String getTelefono() {
         return this.telefono;
     }
-    
+
 }
